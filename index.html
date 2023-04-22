@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reward System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Reward System</h1>
+    </header>
+    
+    <main>
+        <h2>Welcome!</h2>
+        <p>Report any fake news to earn rewards. Your contribution will help us maintain the authenticity of our website.</p>
+        <div class="meter">
+            <div class="progress"></div>
+            <div class="circle">
+              <span class="count">0</span>
+            </div>
+          </div>
+          
+          <button id="add-btn">Add Points</button>
+          <button id="claim-btn">Claim Rewards</button>
+                   
+      <!-- <form>
+        <label for="news">Enter News:</label>
+        <textarea id="news"></textarea>
+        <button type="button" id="submit-btn">Submit</button>
+      </form> -->
+      <div id="reward-container">
+        <h3>Rewards:</h3>
+        <ul id="reward-list">
+          <li>10 points for reporting fake news</li>
+          <li>5 points for sharing authentic news along with the source</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Reward System Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
